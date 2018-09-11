@@ -1,5 +1,6 @@
 import keras
 from keras import backend as K
+from keras.regularizers import l1, l2
 from keras.models import Sequential, Model
 from keras.layers import Input, LSTM, RepeatVector
 from keras.layers.core import Flatten, Dense, Dropout, Lambda
@@ -12,8 +13,11 @@ def create_lstm_vae(input_dim,
     batch_size, 
     intermediate_dim, 
     latent_dim,
-    epsilon_std=1.):
-
+    epsilon_std=1.,
+    encode_l1=0.0,
+    encode_dropout=0.0,
+    decode_l1=0.0,
+    decode_dropout=0.0):
     """
     Creates an LSTM Variational Autoencoder (VAE). Returns VAE, Encoder, Generator. 
 
@@ -33,7 +37,8 @@ def create_lstm_vae(input_dim,
     x = Input(shape=(timesteps, input_dim,))
 
     # LSTM encoding
-    h = LSTM(intermediate_dim)(x)
+    encode_l1 = l1(encode_l1)
+    h = LSTM(intermediate_dim, dropout=encode_dropout, activity_regularizer=encode_l1)(x)
 
     # VAE Z layer
     z_mean = Dense(latent_dim)(h)
@@ -50,8 +55,8 @@ def create_lstm_vae(input_dim,
     z = Lambda(sampling, output_shape=(latent_dim,))([z_mean, z_log_sigma])
     
     # decoded LSTM layer
-    decoder_h = LSTM(intermediate_dim, return_sequences=True)
-    decoder_mean = LSTM(input_dim, return_sequences=True)
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+    decoder_mean = LSTM(input_dim, dropout=decode_dropout, activity_regularizer=decode_l1, return_sequences=True)
 
     h_decoded = RepeatVector(timesteps)(z)
     h_decoded = decoder_h(h_decoded)
