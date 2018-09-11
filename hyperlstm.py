@@ -3,7 +3,6 @@ os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 # The GPU id to use, usually either "1" and/or "0"
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 import numpy as np
-import matplotlib.pyplot as plt
 from keras.models import load_model
 from keras.callbacks import Callback, ModelCheckpoint
 
@@ -25,17 +24,6 @@ data_path = "./data/fs-peptide/"
 result_path = "./result/"
 loss_path = "./result/loss_fs-peptide/"
 model_path = "./result/model_fs-peptide/"
-
-# create directories;
-if not os.path.exists(data_path):
-   os.mkdir(data_path, 0755);
-if not os.path.exists(result_path):
-   os.mkdir(result_path, 0755);
-if not os.path.exists(loss_path):
-   os.mkdir(loss_path, 0755);
-if not os.path.exists(model_path):
-   os.mkdir(model_path, 0755);
-print "directories created or if already exists - then checked";
 
 # define hisotry for loss
 class LossHistory(Callback):

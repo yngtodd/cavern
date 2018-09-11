@@ -1,0 +1,162 @@
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    from .vae import create_lstm_vae
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from .vae import create_lstm_vae
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+Traceback (most recent call last):
+  File "hyperlstm.py", line 9, in <module>
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from .vae import create_lstm_vae
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+    from .vae import create_lstm_vae
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    from .vae import create_lstm_vae
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+    from lstm_vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/__init__.py", line 1, in <module>
+                                                                                 ^
+SyntaxError: invalid syntax
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+    from .vae import create_lstm_vae
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+    from .vae import create_lstm_vae
+    from .vae import create_lstm_vae
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+SyntaxError: invalid syntax
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+                                                                                 ^
+SyntaxError: invalid syntax
+                                                                                 ^
+SyntaxError: invalid syntax
+  File "/lustre/atlas2/csc264/proj-shared/yngtodd/cavern/lstm_vae/vae.py", line 58
+    decoder_h = LSTM(intermediate_dim, dropout=decode_dropout activity_regularizer=decode_l1, return_sequences=True)
+                                                                                 ^
+SyntaxError: invalid syntax
+                                                                                 ^
+SyntaxError: invalid syntax
+Application 18779781 exit codes: 1
+Application 18779781 resources: utime ~48s, stime ~48s, Rss ~121764, inblocks ~938528, outblocks ~1648
