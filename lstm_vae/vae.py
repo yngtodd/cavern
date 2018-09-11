@@ -55,6 +55,7 @@ def create_lstm_vae(input_dim,
     z = Lambda(sampling, output_shape=(latent_dim,))([z_mean, z_log_sigma])
     
     # decoded LSTM layer
+    decode_l1 = l1(decode_l1)
     decoder_h = LSTM(intermediate_dim, dropout=decode_dropout, activity_regularizer=decode_l1, return_sequences=True)
     decoder_mean = LSTM(input_dim, dropout=decode_dropout, activity_regularizer=decode_l1, return_sequences=True)
 

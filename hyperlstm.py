@@ -7,6 +7,7 @@ from keras.models import load_model
 from keras.callbacks import Callback, ModelCheckpoint
 
 from lstm_vae import create_lstm_vae
+import argparse
 from hyperspace import hyperdrive
 
 # define parameters
